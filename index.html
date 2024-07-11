@@ -130,7 +130,7 @@ body {
     <script>
         async function consultarPatente() {
             const patente = document.getElementById('patente').value;
-            const response = await fetch('http://golivox.pythonanywhere.com/api/obtener_informacion_patente', {
+            const response = await fetch('https://multana.vercel.app/api/obtener_informacion_patente', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
